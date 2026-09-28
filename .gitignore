@@ -1,0 +1,17 @@
+# --- Python / backend ---
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.db-journal
+.env
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+
+# --- Editor / OS ---
+.vscode/
+.DS_Store
+Thumbs.db

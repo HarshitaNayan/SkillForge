@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+body {
+  background: #111111;
+  color: #F5F1EA;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .font-display { font-family: 'Fraunces', serif; }
+
+::selection { background: #7A263A; color: #F5F1EA; }
+
+a { color: inherit; }
+
+.sf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: background-color 120ms ease, border-color 120ms ease;
+  cursor: pointer;
+}
+.sf-btn-primary { background: #7A263A; color: #F5F1EA; }
+.sf-btn-primary:hover { background: #8C2C44; }
+.sf-btn-secondary { background: transparent; border-color: #303030; color: #F5F1EA; }
+.sf-btn-secondary:hover { border-color: #B88952; }
+.sf-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.sf-card {
+  background: #181818;
+  border: 1px solid #303030;
+  border-radius: 6px;
+}
+
+.sf-input {
+  background: #202020;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  padding: 0.55rem 0.75rem;
+  color: #F5F1EA;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.sf-input:focus { outline: 2px solid #B88952; outline-offset: 1px; }
+
+.sf-label { font-size: 0.78rem; color: #A7A19A; margin-bottom: 0.3rem; display: block; }
+
+.sf-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  border: 1px solid #303030;
+  color: #A7A19A;
+}
