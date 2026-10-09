@@ -91,6 +91,7 @@ Per the project's own priority rule ("working core features > more
 features"), a few things described in early planning were cut rather than
 shipped half-working:
 
+
 - **3D background / animated visuals** — no functional payoff, and the
   fastest way to spend a review budget on decoration instead of a working
   judging engine. The UI uses a plain wine/burgundy identity instead.
